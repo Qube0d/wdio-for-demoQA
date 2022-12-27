@@ -196,8 +196,55 @@ class ElementPage{
         }
     }
 
+    //buttons
+    get buttonsBtn() {
+        return $('//span[contains(text(),"Buttons")]')
+    }
+    get doubleClickButton() {
+        return $('//button[@id="doubleClickBtn"]')
+    }
+    get checkDoubleClickButton() {
+        return $('//p[@id="doubleClickMessage"]')
+    }
+    get clickMeClickButton() {
+        return $('//button[contains(text(),"Click Me")]/../following-sibling::div/./following-sibling::div/button')
+    }
+    get checkClickMeClickButton() {
+        return $('//p[@id="dynamicClickMessage"]')
+    }
 
+    async gotoElementButtons() {
+        await this.elementPage.click();
+        await this.buttonsBtn.click();
+    }
+    async doubleClickAction() {
+        await this.doubleClickButton.doubleClick();
+        await expect(this.checkDoubleClickButton).toHaveText('You have done a double click')
+    }
+    async clickMeButtonAction() {
+        await this.clickMeClickButton.click()
+        await expect(this.checkClickMeClickButton).toHaveText('You have done a dynamic click')
+    }
 
+    //links
+    get linksBtn() {
+        return $('//span[contains(text(),"Links")]')
+    }
+    get created() {
+        return $('//a[@id="created"]')
+    }
+    get linkResponded201() {
+        return $('//p[@id="linkResponse"]//following-sibling::b[contains(text(),"201")]')
+    }
+
+    async gotoElementLinks() {
+        await this.elementPage.click();
+        await this.linksBtn.click();
+    }
+    async createdLink() {
+        await this.created.click();
+        await expect(this.linkResponded201).toHaveText("201")
+    }
 
 
 

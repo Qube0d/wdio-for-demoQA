@@ -20,7 +20,7 @@ Integrated with:
 - Clone and checkout the github project
 
 ```sh
-https://github.com/Qube0d/Test-with-allure-and-WDIO.git
+https://github.com/Qube0d/wdio-for-demoQA.git
 ```
 
 - Go to the terminal and execute "npm install" inside the checked out folder

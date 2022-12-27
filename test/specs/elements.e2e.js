@@ -47,4 +47,20 @@ describe('My Login application', () => {
         await ElementPage.deleteRecord.click()
         await expect(ElementPage.noRows).toBeDisplayedInViewport()
     })
+    it('Check buttons for double click', async () => {
+        await browser.url('');
+        await ElementPage.gotoElementButtons();
+        await ElementPage.doubleClickAction();
+    });
+    it('Check buttons for right click', async () => {
+        await browser.url('');
+        await ElementPage.gotoElementButtons();
+        await ElementPage.clickMeButtonAction();
+    });
+    it('Check links', async () => {
+        await browser.url('');
+        await ElementPage.gotoElementLinks();
+        await ElementPage.createdLink();
+    });
+
 })
