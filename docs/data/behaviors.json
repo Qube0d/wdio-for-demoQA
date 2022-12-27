@@ -1,1 +1,1 @@
-{"uid":"b1a8273437954620fa374b796ffaacdd","children":[],"name":"behaviors"}
+{"uid":"b1a8273437954620fa374b796ffaacdd","children":[{"name":"Text box","uid":"d329d296785bd51f","parentUid":"b1a8273437954620fa374b796ffaacdd","status":"passed","time":{"start":1672141813574,"stop":1672141816869,"duration":3295},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["chrome-108.0.5359.98"],"tags":[]}],"name":"behaviors"}
