@@ -10,41 +10,41 @@ describe('My Login application', () => {
         await ElementPage.submitBtn.click();
         await expect(ElementPage.finalTable).toBeDisplayedInViewport();
     });
-    // it('Check box', async () => {
-    //     await browser.url('');
-    //     await ElementPage.gotoElementCheckBox();
-    //     await ElementPage.clickToggle();
-    // })
-    // it('Check box tree', async () => {
-    //     await browser.url('');
-    //     await ElementPage.gotoElementCheckBox();
-    //     await ElementPage.clickTree();
-    // });
-    // it('Check radio button yes', async () => {
-    //     await browser.url('');
-    //     await ElementPage.gotoElementRadioBtn();
-    //     await ElementPage.clickRadioYes();
-    // });
-    // it('Check radio button impressive', async () => {
-    //     await browser.url('');
-    //     await ElementPage.gotoElementRadioBtn();
-    //     await ElementPage.clickRadioImpressive();
-    // });
-    // it('Check web tables', async () => {
-    //     await browser.url('');
-    //     await ElementPage.gotoElementWebTables();
-    //     await ElementPage.addBtn.click();
-    //     await ElementPage.fillRegistration({ name: "John", lastname: "Dou", email: "some@example.com", age: "25", salary: "5000", department: "Legal"});
-    //     await ElementPage.submitRegBtn.click();
-    // });
-    // it('Check web tables for search and delete user', async () => {
-    //     await browser.url('');
-    //     await ElementPage.gotoElementWebTables();
-    //     await ElementPage.addBtn.click();
-    //     await ElementPage.fillRegistration({ name: "John", lastname: "Dou", email: "some@example.com", age: "25", salary: "5000", department: "Legal"});
-    //     await ElementPage.submitRegBtn.click();
-    //     await ElementPage.searchBox.addValue("John");
-    //     await ElementPage.deleteRecord.click()
-    //     await expect(ElementPage.noRows).toBeDisplayedInViewport()
-    // })
+    it('Check box', async () => {
+        await browser.url('');
+        await ElementPage.gotoElementCheckBox();
+        await ElementPage.clickToggle();
+    })
+    it('Check box tree', async () => {
+        await browser.url('');
+        await ElementPage.gotoElementCheckBox();
+        await ElementPage.clickTree();
+    });
+    it('Check radio button yes', async () => {
+        await browser.url('');
+        await ElementPage.gotoElementRadioBtn();
+        await ElementPage.clickRadioYes();
+    });
+    it('Check radio button impressive', async () => {
+        await browser.url('');
+        await ElementPage.gotoElementRadioBtn();
+        await ElementPage.clickRadioImpressive();
+    });
+    it('Check web tables', async () => {
+        await browser.url('');
+        await ElementPage.gotoElementWebTables();
+        await ElementPage.addBtn.click();
+        await ElementPage.fillRegistration({ name: "John", lastname: "Dou", email: "some@example.com", age: "25", salary: "5000", department: "Legal"});
+        await ElementPage.submitRegBtn.click();
+    });
+    it('Check web tables for search and delete user', async () => {
+        await browser.url('');
+        await ElementPage.gotoElementWebTables();
+        await ElementPage.addBtn.click();
+        await ElementPage.fillRegistration({ name: "John", lastname: "Dou", email: "some@example.com", age: "25", salary: "5000", department: "Legal"});
+        await ElementPage.submitRegBtn.click();
+        await ElementPage.searchBox.addValue("John");
+        await ElementPage.deleteRecord.click()
+        await expect(ElementPage.noRows).toBeDisplayedInViewport()
+    })
 })
