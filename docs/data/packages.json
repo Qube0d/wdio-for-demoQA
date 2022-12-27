@@ -1,1 +1,1 @@
-{"uid":"83edc06c07f9ae9e47eb6dd1b683e4e2","children":[],"name":"packages"}
+{"uid":"83edc06c07f9ae9e47eb6dd1b683e4e2","children":[{"name":"My Login application","children":[{"name":"Text box","uid":"d329d296785bd51f","parentUid":"f43874cc36d1c5833cbb332fc53460ce","status":"passed","time":{"start":1672141813574,"stop":1672141816869,"duration":3295},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["chrome-108.0.5359.98"],"tags":[]}],"uid":"f43874cc36d1c5833cbb332fc53460ce"}],"name":"packages"}
