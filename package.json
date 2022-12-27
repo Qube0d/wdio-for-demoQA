@@ -14,5 +14,8 @@
     "wdio": "wdio run ./wdio.conf.js",
     "allure:generate": "allure generate allure-results --clean",
     "allure:open": "allure open"
+  },
+  "dependencies": {
+    "allure-commandline": "^2.20.1"
   }
 }
