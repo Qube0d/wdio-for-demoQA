@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"skipped","Tue Dec 27 11:39:11 UTC 2022","Tue Dec 27 11:39:11 UTC 2022","0","","My Login application","","My Login application","Check web tables","Check web tables",""
+"skipped","Tue Dec 27 11:39:11 UTC 2022","Tue Dec 27 11:39:11 UTC 2022","0","","My Login application","","My Login application","Check box","Check box",""
+"broken","Tue Dec 27 11:39:11 UTC 2022","Tue Dec 27 11:39:19 UTC 2022","7860","","My Login application","","My Login application","Check web tables for search and delete user","Check web tables for search and delete user",""
+"skipped","Tue Dec 27 11:39:11 UTC 2022","Tue Dec 27 11:39:11 UTC 2022","0","","My Login application","","My Login application","Check radio button impressive","Check radio button impressive",""
+"skipped","Tue Dec 27 11:39:11 UTC 2022","Tue Dec 27 11:39:11 UTC 2022","0","","My Login application","","My Login application","Check radio button yes","Check radio button yes",""
+"skipped","Tue Dec 27 11:39:11 UTC 2022","Tue Dec 27 11:39:11 UTC 2022","0","","My Login application","","My Login application","Check box tree","Check box tree",""
+"skipped","Tue Dec 27 11:39:11 UTC 2022","Tue Dec 27 11:39:11 UTC 2022","0","","My Login application","","My Login application","Text box","Text box",""
