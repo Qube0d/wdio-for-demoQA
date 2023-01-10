@@ -13,6 +13,7 @@ Integrated with:
 - https://webdriver.io/docs/allure-reporter/
 - https://webdriver.io/docs/selenium-standalone-service/
 - https://www.npmjs.com/package/allure-commandline
+- https://webdriver.io/docs/docker/
 
 ## Installation
 
@@ -49,4 +50,24 @@ npm run allure:generate
 
 ```sh
 npm run allure:open
+```
+
+## Start with Docker
+
+- Run to start docker locally at https://localhost/4444
+
+```sh
+npm run docker up
+```
+
+- Run to start test in docker
+
+```sh
+npm run wdio:docker
+```
+
+- Run to terminate docker
+
+```sh
+npm run docker down
 ```
